@@ -1,0 +1,11 @@
+[project]
+name = "ComfyUI-Omni-Node"
+description = "Omni Node: paste a node class, or describe one, and the node rebuilds its own inputs/outputs to mirror it. Runs user-supplied Python."
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = ["requests"]
+
+[tool.comfy]
+PublisherId = "nova452"
+DisplayName = "Omni Node"
+includes = []
